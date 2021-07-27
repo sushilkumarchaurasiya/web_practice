@@ -1,0 +1,11 @@
+.row{
+    padding: 5px;
+    
+}
+.boxed{
+    border: 1px dotted rgb(204, 183, 144);
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 50%;
+}
+

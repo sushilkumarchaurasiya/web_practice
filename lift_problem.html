@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="es6/lift.js"></script>
+    <script>
+        var data;
+        function getData(params) {
+            data = params;
+            document.getElementById('status').innerText = data;
+        }
+    </script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                    </div>
+                </div>
+                <!-- <div class="row">
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                </div> -->
+                 <!-- <div class="row">
+                    <div class="col">
+                        <button class="btn btn-outline-primary">UP</button>
+                    </div> -->
+                    <!-- <div class="col"><button class="btn btn-outline-primary"></button></div>
+                    <div class="col"><button class="btn btn-outline-primary"></button></div> -->
+                <!-- </div>  -->
+                <div class="row">
+                    <div class="col"><button class="btn btn-outline-primary">DOWN</button></div>
+                    <!-- <div class="col"><button class="btn btn-outline-primary"></button></div> -->
+                    <!-- <div class="col"><button class="btn btn-outline-primary"></button></div> -->
+                </div>
+                <!-- <div class="row">
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                    <div class="col"><button class="btn btn-outline-primary"></button></div>
+                </div> -->
+
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">                 
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">DOWN</button>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="row">
+                    <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button class="btn btn-outline-primary">UP</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col">
+                        <div class="boxed"><label>Current Place: <span id="status"></span></label></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button onclick="getData(01)" class="btn btn-outline-primary">01</button>
+                        <button onclick="getData(02)" class="btn btn-outline-primary">02</button>
+                        <button onclick="getData(03)" class="btn btn-outline-primary">03</button>
+                        <button onclick="getData(04)" class="btn btn-outline-primary">04</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button onclick="getData(05)" class="btn btn-outline-primary">05</button>
+                        <button onclick="getData(06)" class="btn btn-outline-primary">06</button>
+                        <button onclick="getData(07)" class="btn btn-outline-primary">07</button>
+                        <button onclick="getData(08)" class="btn btn-outline-primary">08</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button onclick="getData(09)" class="btn btn-outline-primary">09</button>
+                        <button onclick="getData(10)" class="btn btn-outline-primary">10</button>
+                        <button onclick="getData(11)" class="btn btn-outline-primary">11</button>
+                        <button onclick="getData(12)" class="btn btn-outline-primary">12</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <button onclick='getData("OPEN")' class="btn btn-outline-primary">Open</button>
+                        <button onclick="myFunction()" class="btn btn-danger">Emg</button>
+                        <script>
+                            function myFunction(){
+                                alert("Be Careful!");
+                            }
+                        </script>
+                       
+                        <button onclick='getData("CLOSE")' class="btn btn-outline-primary">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+
+    </div>
+</body>
+</html>
