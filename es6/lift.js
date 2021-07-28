@@ -8,7 +8,5 @@ function getData(params) {
     for (i=0; i<totalspan.length; i++){
         totalspan[i].textContent = data;
     }
-
-
-    
 }
+
