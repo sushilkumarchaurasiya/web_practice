@@ -3,9 +3,13 @@
     
 }
 .boxed{
-    border: 1px dotted rgb(204, 183, 144);
+    border: 1px dotted rgb(185, 138, 51);
     padding: 5px;
     border-radius: 5px;
     margin-right: 50%;
+    background-color: rgba(213, 228, 161, 0.664);
 }
 
+.btn:hover{
+    background-color: rgb(141, 184, 99);
+}
