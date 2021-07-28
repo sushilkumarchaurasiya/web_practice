@@ -9,13 +9,6 @@
     <link rel="stylesheet" href="style.css">
     <script src="js/bootstrap.min.js"></script>
     <script src="es6/lift.js"></script>
-    <script>
-        var data;
-        function getData(params) {
-            data = params;
-            document.getElementById('status','A','B').innerText = data;
-        }
-    </script>
 </head>
 <body>
     <div class="container-fluid">
@@ -318,13 +311,7 @@
                 <div class="row">
                     <div class="col">
                         <button onclick='getData("OPEN")' class="btn btn-outline-primary">Open</button>
-                        <button onclick="myFunction()" class="btn btn-danger">Emg</button>
-                        <script>
-                            function myFunction(){
-                                alert("Be Careful!");
-                            }
-                        </script>
-                       
+                        <button onclick='getData("Emergency")' class="btn btn-danger">Emg</button>
                         <button onclick='getData("CLOSE")' class="btn btn-outline-primary">Close</button>
                     </div>
                 </div>
