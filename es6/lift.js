@@ -17,10 +17,16 @@ function updateDisplay(params) {
 
 
 var clr = setInterval(() => {
-    console.log("hello",requests[0]);
+    console.log(requests[0]);
     updateDisplay(requests[0]);
     requests.shift(); 
 }, 3000);
+
+
+
+
+
+
 
 
 
