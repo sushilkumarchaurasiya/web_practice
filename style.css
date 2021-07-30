@@ -8,10 +8,13 @@
     border-radius: 20px;
     margin-right: 50%;
     background-color: rgba(213, 228, 161, 0.664);
+    border-color: hotpink;
 }
 
 .btn:hover{
     background-color: rgb(141, 184, 99);
+    border-color: rgb(214, 82, 30);
+    border-radius: 50%;
 }
 
 
