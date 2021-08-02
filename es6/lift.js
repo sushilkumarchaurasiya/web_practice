@@ -20,7 +20,52 @@ var clr = setInterval(() => {
     console.log(requests[0]);
     updateDisplay(requests[0]);
     requests.shift(); 
-}, 3000);
+    requests = arrSwap(requests);
+}, 8000);
+
+
+
+
+
+// const test = () =>{
+//     var a = 2;
+//     var b = 3;
+//     [a,b] = [b,a];
+//     // a = a + b;
+//     // b = a - b;
+//     // a = a - b;
+//     console.log('the value of a is ' + (a));
+//     console.log('the value of b is ' + (b));
+// }
+// test();
+
+// function addme(arg1,arg2) {
+//     return arg1+arg2;
+// }
+
+function swap(n1,n2) {
+    return[n2,n1];
+}
+
+// var arrr = [12,9,5,6,7];
+// console.log('--------------------',arrr[03]);
+function arrSwap(arrr) {
+    let temp = [];
+    let data = swap(arrr[0],arrr[1]);
+    arrr.shift();
+    arrr.shift();
+    temp = [...data,...arrr];
+    console.log('----',temp);
+    return temp;
+}
+// arrSwap(arrr);
+
+
+
+
+
+
+
 
 
 
